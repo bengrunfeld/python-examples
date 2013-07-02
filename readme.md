@@ -1,5 +1,4 @@
-#Python Programs
+python-programs
+===============
 
-This is a repository of examples of programs written the Python language.
-
-
+A set of examples of Python programs
