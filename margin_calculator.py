@@ -12,6 +12,6 @@ margin=30			#Input how much space you think is good
 
 if((pageWidth-(margin * (numberOfCols - 1))) % numberOfCols) == 0:
 	cols = (pageWidth-(margin*(numberOfCols-1)))/numberOfCols
-	print "Column Width should equal:", cols
+	print "Column Width should equal:", cols, "pixels."
 else:
 	print "Sorry, that won't work."
