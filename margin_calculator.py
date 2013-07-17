@@ -9,12 +9,15 @@ what that width should be. If you can't create colums of equal width,
 it issues an error message."""
 
 
-pageWidth=1080		#Input the page width
-numberOfCols=3		#Input how many colums you want
+pageWidth=930		#Input the page width
+numberOfCols=4		#Input how many colums you want
 margin=30		#Input how much space you think is good
 
 if((pageWidth-(margin * (numberOfCols - 1))) % numberOfCols) == 0:
 	cols = (pageWidth-(margin*(numberOfCols-1)))/numberOfCols
-	print "Column Width should equal:", cols, "pixels."
+	print "For a page width of:", pageWidth, "pixels,"
+	print "With", numberOfCols, "columns,"
+	print "Column Width should be:", cols, "pixels,"
+	print "With", margin, "pixels margin in between them."
 else:
 	print "Sorry, that won't work."
